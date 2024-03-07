@@ -66,3 +66,46 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+/** commenet section  */
+
+
+
+.main-containter{
+
+}
+
+
+.comment-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.comment-text {
+  margin: 12px 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.input-box {
+  height: 75px;
+  width: 465px;
+  background-color: #373030;
+
+}
+
+.comment-button {
+  height: 40px;
+  width: 110px;
+  background-color: #2d9279;
+  color: white;
+  font-size: 1.05rem;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
