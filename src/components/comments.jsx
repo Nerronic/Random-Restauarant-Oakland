@@ -24,6 +24,7 @@ function Comments() {
           onChange={onChangeHandler}
           className="input-box"
         />
+        
         <button onClick={onClickHandler} className="comment-button">
           {" "}
           Submit

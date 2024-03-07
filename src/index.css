@@ -1,16 +1,19 @@
+
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(216, 92, 92, 0.87);
   background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets//food-background.jpg");
+  
 }
 
 a {
@@ -28,6 +31,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  max-width: 1280;
+  margin: 0 auto;
+  
+  
 }
 
 h1 {
@@ -45,6 +52,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  
 }
 button:hover {
   border-color: #646cff;
@@ -67,27 +75,38 @@ button:focus-visible {
   }
 }
 
+/** restaurant randomizer*//
+
+.restaurant-container{
+  width:400px;
+  height: 210px;
+  margin-top: 30px;
+  font-weight: 100;
+  border-radius:100px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.1); /* Transparent black background */
+
+}
+
+
+
 
 /** commenet section  */
 
 
 
-.main-containter{
-
-}
-
-
 .comment-flexbox {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .comment-text {
   margin: 12px 0;
   font-size: 1.15rem;
   font-weight: 600;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .input-box {

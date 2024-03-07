@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import background from "./assets/food-background.jpg"
 import './App.css'
 import OakRestaurants from './components/oakland-restaurants'
 
@@ -9,7 +8,9 @@ function App() {
 
   return (
     <>
+  {/* <div style ={{backgroundImage:`url(${background})`,height: '100vh'}} > </div> */}
     <OakRestaurants/>
+    
     </>
   )
 }

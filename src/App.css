@@ -1,8 +1,14 @@
 #root {
   max-width: 1280px;
+  display: flex;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
+  
+
+  
+  
 }
 
 .header{
@@ -10,10 +16,8 @@
   
 }
 
-.restaurant-container{
-  margin-top: 30px;
-  background-color: green;
-  font-weight: 100;
-  border-radius:1000px;
-  
-}
+
+
+
+
+/*  */
