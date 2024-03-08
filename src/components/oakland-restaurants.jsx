@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Comments from "./comments";
 import { oakData } from "./oak-data";
+import Footer from "./footer";
+
 function OakRestaurants() {
   const [selectedRestaurant, SetSelectedRestaurant] = useState(0);
 
@@ -11,7 +13,7 @@ function OakRestaurants() {
   let selection = oakData[selectedRestaurant];
 
   return (
-    <div>
+    <div  className="main-">
    
       <h1 className="header"> Top 50 Restauarants in Oakland</h1>
       <div className="restaurant-container">
@@ -30,7 +32,7 @@ function OakRestaurants() {
         Like what you see? Let us know! <br /> Drop a comment below
       </h3>
 
-      <Comments />
+      
       </div>
       
   );

@@ -15,7 +15,7 @@ function Comments() {
   return (
     <div className="main-container">
       {comments.map((text) => (
-        <div className="comment-container"> {text}</div>
+        <div className="comment-container" key=""> {text}</div>
       ))}
       <div className="comment-flexbox">
         <h3 className="comment-text"> Comment here</h3>
